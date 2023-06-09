@@ -10,6 +10,8 @@ Start scripts were also reconfigured to remove support for `swc` compilation, as
 
 2023-06-09 13-28-00.mp4
 
+https://github.com/freitas-labs/chrome-extension-typescript/assets/26190214/b7fe80a6-5d11-4ad9-9947-84ae6f2a7bc7
+
 ## Scripts
 
 - `npm run build` to transpile and bundle files in `.cjs`, `.js`, `.d.ts` and respective source-maps
