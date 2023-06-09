@@ -6,7 +6,7 @@
 	"module": "dist/index.cjs",
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"build": "tsup src/index.ts --format cjs,esm --dts --sourcemap",
+		"build": "tsup src/index.ts --format cjs",
 		"start": "swc src/* -d dist && node dist/index.js",
 		"start:hot": "npx nodemon",
 		"test": "jest",
