@@ -1,3 +1,7 @@
-import sum from './sum';
+import { HelloWorld, Sum } from "./dom";
 
-console.log(sum(40, 2));
+const body = document.getElementsByTagName('body').item(0);
+
+if (body) {
+    body.append(HelloWorld(), Sum())
+}
